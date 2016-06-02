@@ -297,7 +297,7 @@ if __name__ == '__main__':
             print LICENCIA
             sys.exit(0)
             
-        controlador = ControladorFiscal()
+        controlador = PyFiscalPrinter()
         controlador.LanzarExcepciones = True
 
         marca = conf.get("marca", "epson")
